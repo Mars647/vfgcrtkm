@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 25px;
+}
+
+hr {
+    border: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.skills {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contact {
+    background: #e9f7fe;
+    padding: 15px;
+    border-radius: 5px;
+    word-break: break-all;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+/* Добавил небольшой стиль для фото, чтобы оно нормально смотрелось в контейнере */
+.profile-photo {
+    max-width: 100%;  /* Фото не будет вылезать за пределы контейнера */
+    height: auto;     /* Высота подстроится пропорционально */
+    margin: 10px 0;    /* Отступы сверху и снизу */
+}
